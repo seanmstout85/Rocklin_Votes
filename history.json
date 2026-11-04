@@ -1,0 +1,56 @@
+[
+  {
+    "as_of_county": "Tuesday, November 3, 2026 8:02 PM",
+    "source_pdf": "https://www.placercountyelections.gov/Uploads/documents/11032026/11032026_results.pdf",
+    "contests": {
+      "measure_d": {
+        "title": "Measure D · Rocklin Unified school bond",
+        "kind": "measure",
+        "present": true,
+        "choices": {
+          "YES": 6420,
+          "NO": 5547
+        },
+        "precincts_reported": 0,
+        "precincts_total": 28,
+        "total_votes": 11967
+      },
+      "area_2": {
+        "title": "Rocklin Unified · Trustee Area 2",
+        "kind": "trustee",
+        "present": true,
+        "choices": {
+          "TIFFANY SAATHOFF": 1071,
+          "MICHELLE SUTHERLAND": 1398
+        },
+        "precincts_reported": 0,
+        "precincts_total": 8,
+        "total_votes": 2480
+      },
+      "area_4": {
+        "title": "Rocklin Unified · Trustee Area 4",
+        "kind": "trustee",
+        "present": true,
+        "choices": {
+          "REBECCA HOEHNE": 963,
+          "STEVE MAKIS": 724
+        },
+        "precincts_reported": 0,
+        "precincts_total": 4,
+        "total_votes": 1695
+      },
+      "area_5": {
+        "title": "Rocklin Unified · Trustee Area 5",
+        "kind": "trustee",
+        "present": true,
+        "choices": {
+          "DERECK COUNTER": 1296,
+          "JACOB BOYCE": 1035
+        },
+        "precincts_reported": 0,
+        "precincts_total": 5,
+        "total_votes": 2342
+      }
+    }
+  }
+]
