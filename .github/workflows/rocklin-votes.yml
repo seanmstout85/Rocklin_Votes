@@ -1,1 +1,67 @@
+name: Rocklin Votes - Update and Publish
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # GitHub's minimum schedule is five minutes. Runs may be delayed or skipped.
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: rocklin-votes-pages
+  cancel-in-progress: false
+
+jobs:
+  update-and-publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install PDF and web dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Check current Placer County PDF and build static site
+        run: python scripts/build_site.py
+
+      - name: Save new vote snapshots to repository (only when changed)
+        run: |
+          if ! git diff --quiet -- latest.json history.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add latest.json history.json
+            git commit -m "Update verified Rocklin election results"
+            git push
+          else
+            echo "No new county vote figures to commit."
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload website artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
