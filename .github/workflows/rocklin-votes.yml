@@ -1,11 +1,13 @@
+
 name: Rocklin Votes - Update and Publish
 
 on:
   push:
     branches: [main]
   schedule:
-    # GitHub's minimum schedule is five minutes. Runs may be delayed or skipped.
-    - cron: '3-59/5 * * * *'
+    # Check every five minutes, offset from the top of the hour.
+    # GitHub may delay or skip scheduled runs.
+    - cron: '4-59/5 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -23,6 +25,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -64,4 +67,3 @@ jobs:
       - name: Publish to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
