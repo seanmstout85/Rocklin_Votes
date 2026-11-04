@@ -1,56 +1,56 @@
 {
-  "as_of_county": "Tuesday, November 3, 2026 8:02 PM",
+  "as_of_county": "Tuesday, November 3, 2026 9:17 PM",
   "zero_report": false,
-  "source_pdf": "https://www.placercountyelections.gov/Uploads/documents/11032026/11032026_results.pdf",
+  "source_pdf": "https://www.placercountyelections.gov/Uploads/documents/11032026/11032026_results01.pdf",
   "contests": {
     "measure_d": {
       "title": "Measure D · RUSD school bond",
       "kind": "measure",
       "present": true,
       "choices": {
-        "YES": 6420,
-        "NO": 5547
+        "YES": 7488,
+        "NO": 6853
       },
-      "precincts_reported": 0,
+      "precincts_reported": 28,
       "precincts_total": 28,
-      "total_votes": 11967
+      "total_votes": 14341
     },
     "area_2": {
       "title": "School Board · Trustee Area 2",
       "kind": "trustee",
       "present": true,
       "choices": {
-        "TIFFANY SAATHOFF": 1071,
-        "MICHELLE SUTHERLAND": 1398
+        "TIFFANY SAATHOFF": 1321,
+        "MICHELLE SUTHERLAND": 1622
       },
-      "precincts_reported": 0,
+      "precincts_reported": 8,
       "precincts_total": 8,
-      "total_votes": 2480
+      "total_votes": 2954
     },
     "area_4": {
       "title": "School Board · Trustee Area 4",
       "kind": "trustee",
       "present": true,
       "choices": {
-        "REBECCA HOEHNE": 963,
-        "STEVE MAKIS": 724
+        "REBECCA HOEHNE": 1221,
+        "STEVE MAKIS": 884
       },
-      "precincts_reported": 0,
+      "precincts_reported": 4,
       "precincts_total": 4,
-      "total_votes": 1695
+      "total_votes": 2114
     },
     "area_5": {
       "title": "School Board · Trustee Area 5",
       "kind": "trustee",
       "present": true,
       "choices": {
-        "DERECK COUNTER": 1296,
-        "JACOB BOYCE": 1035
+        "DERECK COUNTER": 1632,
+        "JACOB BOYCE": 1325
       },
-      "precincts_reported": 0,
+      "precincts_reported": 5,
       "precincts_total": 5,
-      "total_votes": 2342
+      "total_votes": 2971
     }
   },
-  "fetched_at": "2026-11-03T21:15:45-08:00"
+  "fetched_at": "2026-11-03T21:56:05-08:00"
 }
