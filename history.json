@@ -376,5 +376,59 @@
         "total_votes": 3620
       }
     }
+  },
+  {
+    "as_of_county": "Tuesday, November 10, 2026 4:01 PM",
+    "source_pdf": "https://www.placercountyelections.gov/Uploads/documents/11032026/11032026_Results07.pdf",
+    "contests": {
+      "measure_d": {
+        "title": "Measure D · RUSD school bond",
+        "kind": "measure",
+        "present": true,
+        "choices": {
+          "YES": 12453,
+          "NO": 11098
+        },
+        "precincts_reported": 28,
+        "precincts_total": 28,
+        "total_votes": 23551
+      },
+      "area_2": {
+        "title": "School Board · Trustee Area 2",
+        "kind": "trustee",
+        "present": true,
+        "choices": {
+          "TIFFANY SAATHOFF": 2248,
+          "MICHELLE SUTHERLAND": 2589
+        },
+        "precincts_reported": 8,
+        "precincts_total": 8,
+        "total_votes": 4853
+      },
+      "area_4": {
+        "title": "School Board · Trustee Area 4",
+        "kind": "trustee",
+        "present": true,
+        "choices": {
+          "REBECCA HOEHNE": 2163,
+          "STEVE MAKIS": 1513
+        },
+        "precincts_reported": 4,
+        "precincts_total": 4,
+        "total_votes": 3691
+      },
+      "area_5": {
+        "title": "School Board · Trustee Area 5",
+        "kind": "trustee",
+        "present": true,
+        "choices": {
+          "DERECK COUNTER": 2460,
+          "JACOB BOYCE": 1907
+        },
+        "precincts_reported": 5,
+        "precincts_total": 5,
+        "total_votes": 4389
+      }
+    }
   }
 ]

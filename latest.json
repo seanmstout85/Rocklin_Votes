@@ -1,56 +1,56 @@
 {
-  "as_of_county": "Friday, November 6, 2026 3:44 PM",
+  "as_of_county": "Tuesday, November 10, 2026 4:01 PM",
   "zero_report": false,
-  "source_pdf": "https://www.placercountyelections.gov/Uploads/documents/11032026/11062026_Results06.pdf",
+  "source_pdf": "https://www.placercountyelections.gov/Uploads/documents/11032026/11032026_Results07.pdf",
   "contests": {
     "measure_d": {
       "title": "Measure D · RUSD school bond",
       "kind": "measure",
       "present": true,
       "choices": {
-        "YES": 10505,
-        "NO": 9575
+        "YES": 12453,
+        "NO": 11098
       },
       "precincts_reported": 28,
       "precincts_total": 28,
-      "total_votes": 20080
+      "total_votes": 23551
     },
     "area_2": {
       "title": "School Board · Trustee Area 2",
       "kind": "trustee",
       "present": true,
       "choices": {
-        "TIFFANY SAATHOFF": 1977,
-        "MICHELLE SUTHERLAND": 2226
+        "TIFFANY SAATHOFF": 2248,
+        "MICHELLE SUTHERLAND": 2589
       },
       "precincts_reported": 8,
       "precincts_total": 8,
-      "total_votes": 4215
+      "total_votes": 4853
     },
     "area_4": {
       "title": "School Board · Trustee Area 4",
       "kind": "trustee",
       "present": true,
       "choices": {
-        "REBECCA HOEHNE": 1867,
-        "STEVE MAKIS": 1339
+        "REBECCA HOEHNE": 2163,
+        "STEVE MAKIS": 1513
       },
       "precincts_reported": 4,
       "precincts_total": 4,
-      "total_votes": 3219
+      "total_votes": 3691
     },
     "area_5": {
       "title": "School Board · Trustee Area 5",
       "kind": "trustee",
       "present": true,
       "choices": {
-        "DERECK COUNTER": 2007,
-        "JACOB BOYCE": 1593
+        "DERECK COUNTER": 2460,
+        "JACOB BOYCE": 1907
       },
       "precincts_reported": 5,
       "precincts_total": 5,
-      "total_votes": 3620
+      "total_votes": 4389
     }
   },
-  "fetched_at": "2026-11-06T15:56:29-08:00"
+  "fetched_at": "2026-11-10T16:23:40-08:00"
 }
